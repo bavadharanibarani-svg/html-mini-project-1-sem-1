@@ -1,98 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Future Tech</title>
+<html>
+    <head>
+        <title> User signup </title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+           .signup-box {
+            background-color: #ffffff;
+            padding: 25px;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+    input {
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #e0f2fe, #f8fafc);
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+        button {
+            width: 95%;
+            padding: 10px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+     </style>
+     </head>
+    <body>
 
-header {
-    background: #0f172a;
-    color: white;
-    padding: 30px 15px;
-}
+<div class="signup-box">
+    <h2>User Signup</h2>
 
-section {
-    padding: 25px;
-    margin: 20px auto;
-    background: white;
-    border-radius: 10px;
-    max-width: 700px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
 
-h1 {
-    margin: 0;
-    font-size: 2.2rem;
-}
+        <button type="submit">Sign Up</button>
+    </form>
 
-h2 {
-    color: #1e40af;
-}
-
-a {
-    display: inline-block;
-    margin: 8px;
-    padding: 10px 15px;
-    text-decoration: none;
-    background-color: #1e40af;
-    color: white;
-    border-radius: 6px;
-    font-size: 14px;
-}
-
-a:hover {
-    background-color: #1e3a8a;
-}
-
-footer {
-    margin: 30px 0;
-    color: #555;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-    <h1>Future Tech</h1>
-    <p>Exploring innovations that shape tomorrow</p>
-</header>
-
-<section>
-    <h2>Welcome</h2>
-    <p>
-        This website introduces upcoming technologies that are expected
-        to transform the way we live, work, and communicate.
-    </p>
-</section>
-
-<section>
-    <h2>Explore Pages</h2>
-    <a href="introduction.html">Introduction</a>
-    <a href="useful fact.html">Useful Facts</a>
-    <a href="future tech images.html">Future Tech Images</a>
-</section>
-
-<section>
-    <h2>Top Future Technologies</h2>
-    <p>
-        Artificial Intelligence • Quantum Computing • Robotics •
-        Space Tech • Biotechnology
-    </p>
-</section>
-
-<footer>
-    ✨ Thanks for visiting!
-</footer>
+    <p>Already have an account? <a href="#">Login</a></p>
+</div>
 
 </body>
-</html>
+</html>       
